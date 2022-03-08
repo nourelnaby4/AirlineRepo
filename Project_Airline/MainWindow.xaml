@@ -58,7 +58,7 @@
             </DataGrid>
             <Border BorderBrush="Black" BorderThickness="1" Margin="5,5,5,40">
                 <StackPanel Margin="0,329,458,-277" HorizontalAlignment="Right" Width="289">
-                    <Label Content="Update New Item" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Label Content="Edit the item" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     <Grid x:Name="UpdateAirlineGrid" Margin="5">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition/>
@@ -92,7 +92,7 @@
                         <Button Content="Upload" Grid.Row="4" Grid.Column="1" Click="button4_Click" Margin="0,0,0,10" Grid.RowSpan="2"/>
 
 
-                        <Button Grid.ColumnSpan="2" Grid.Row="5" Content="Update" Click="UpdateAirline"/>
+                        <Button Grid.ColumnSpan="2" Grid.Row="5" Content="Edit" Click="UpdateAirline"/>
                     </Grid>
                 </StackPanel>
 

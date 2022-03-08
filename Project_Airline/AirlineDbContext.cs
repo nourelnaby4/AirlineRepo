@@ -21,7 +21,7 @@ namespace Project_Airline
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source =DESKTOP-3JFH685\\SQL2019; Initial Catalog = AirlineDb; User ID = sa; Password = 0000;");
+                optionsBuilder.UseSqlServer("Data Source =.; Initial Catalog = AirlineDb;");
             }
         }
         public DbSet<Airline> Airlines { get; set; }
