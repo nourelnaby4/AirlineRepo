@@ -69,7 +69,7 @@ namespace Project_Airline {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Project_Airline;component/detailswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Project_Airline;V1.0.0.0;component/detailswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\DetailsWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
